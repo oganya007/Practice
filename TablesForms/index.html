@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="#">
+        <div>
+            <label for="firstname">First Name</label>
+            <input type="text" id= "firstname" placeholder= "Fay" required>
+        </div>
+
+        <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" id= "lastname" placeholder= "Fire" required>
+        </div>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id= "password" placeholder= "12345" required>
+        </div>
+
+         <div>
+            <label for="gender">Gender</label>
+           <p>
+             <input type="radio" id= "gender" value="male" name="Gender" >
+             <label for="male">Male</label>
+            </p>
+           <p>
+             <input type="radio" id= "gender" value="female" name="Gender" >
+             <label for="female"> Female</label>
+            </p>
+        </div>    
+
+        <!--Checkbox-->
+        <div>
+            <label for="gender">Gender</label>
+           <p>
+             <input type="checkbox" id= "gender" value="male" name="Gender" >
+             <label for="male">Male</label>
+            </p>
+           <p>
+             <input type="checkbox" id= "gender" value="female" name="Gender" >
+             <label for="female"> Female</label>
+            </p>
+        </div>   
+        
+        <!--Number-->
+        <div>
+            <label for="number">Phone Number</label>
+             <input type="number" id= "number" required >
+        </div> 
+        <!--Decades-->
+        <p>
+            <label for="decade">Year</label>
+            <input type="number" id= "number" min="1980" max="2020" value="1980" step="10" required >
+        </p>
+        <!--Button-->
+        <div>
+            <p>
+            <input type="button" value="submit">
+            </p>
+
+            <p>
+            <input type="color">
+            </p>
+
+            <p>
+            <input type="submit" name="" id="" value="submit">
+            </p>
+<!--file-->
+            <label for="file">Select File</label>
+            <input type="file" id= "file" >
+
+          <p> 
+            <label for="date">Date</label>
+            <input type="date">
+          </p> 
+          <p> 
+            <label for="range">Range</label>
+            <input type="range">
+          </p> 
+          <p> 
+            <label for="">Hidden</label>
+            <input type="hidden">
+          </p> 
+          <p> 
+            <label for="">Search</label>
+            <input type="search">
+          </p> 
+
+          <!--Text Area-->
+          <label for="message">Leave a message</label>
+          <textarea name="message" id="message" placeholder="Enter a message" cols="30" rows="10"></textarea>
+
+          <!--Select Tag-->
+          <p>
+          <label for="food">Select Preferred Food</label>
+          <select name="food" id="food">
+            <option value="rice">Rice</option>
+            <option value="beans">Beans</option>
+            <option value="yam">Yam</option>
+            <option value="egg">Egg</option>
+            <option value="melon">Melon</option>
+          </select>
+        </p>
+
+        </div>
+    </form>
+
+    
+</body>
+</html>
